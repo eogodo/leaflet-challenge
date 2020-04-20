@@ -46,6 +46,7 @@ function createMap(earthquakes) {
         weight: 2,
         color: "orange",
         fillOpacity: 0,
+        interactive: false,
       },
     });
     faults.addLayer(faultlineLayer);
