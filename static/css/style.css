@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.legend ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.legend-color-element {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+}
+.legend-element {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+.leaflet-popup-content-wrapper {
+  padding-right: 30px;
+}
